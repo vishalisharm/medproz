@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medproz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Medproz</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html" id="aboutLink">About</a></li>
+                <li><a href="contact.html" id="contactLink">Contact</a></li>
+                <li><a href='https://vishalisharm.github.io/my-chatbot/bot.html' id="chatbot">Chatbot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>Medical Consultation with all medical solution. We provide users with the </p>
+
+            <div class="animated-banner">
+                <h3>Get personalized medical care</h3>
+                <p>Experience the future of healthcare with Medproz.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Medproz. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const aboutLink = document.getElementById('aboutLink');
+
+        aboutLink.addEventListener('click', (event) => {
+            event.preventDefault();
+            window.location.href = 'about.html';
+        });
+    </script>
+</body>
+</html>
